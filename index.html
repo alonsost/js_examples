@@ -10,8 +10,9 @@
     <script src="./js/consoleType.js"></script>
     <script src="./js/radioButtons.js"></script>
     <script src="./js/add.js"></script>
-    <script src="./js/greaterThan.js"></script>-->
-    <script src="./js/generateRandom.js"></script>
+    <script src="./js/greaterThan.js"></script>
+    <script src="./js/generateRandom.js"></script>-->
+    <script src="./js/addName.js"></script>
 </head>
 <!--onload="sumaNumeros()"-->
 <body >
@@ -29,8 +30,15 @@
           <input type="text" id="num1">
           <input type="text" id="num2">
           <button type="button" onclick="greaterThanNumber()">¿Quien es el mayor?</button>
-      </form>-->
+      </form>
       <button type="button" onclick="generateNumbers()">Generar Lista</button>
-      <select name="" id="elements"></select>
+      <select name="" id="elements"></select>-->
+      <form>
+          <input type="text" id="name" placeholder="Insertar Nombre...">
+          <button onclick="addName(event)">Insertar</button>
+      </form>
+      <div>
+          <ul id="name-list"></ul>
+      </div>
 </body>
 </html>
