@@ -1,4 +1,5 @@
-/*En el caso de asignación implícita, this hace referencia al objeto, que contenía el método donde se invoca this, pero si tenemos una función y deseamos explícitamente asignarle a que va a hacer referencia this, desde ES5 contamos con los métodos call(), apply() y bind().
+/*https://yeisondaza.com/entendiendo-this-javascript
+En el caso de asignación implícita, this hace referencia al objeto, que contenía el método donde se invoca this, pero si tenemos una función y deseamos explícitamente asignarle a que va a hacer referencia this, desde ES5 contamos con los métodos call(), apply() y bind().
 
 Vamos a tener una función, que reciba unos parámetros y muestre en consola, con la propiedad nombre a la que haga referencia this, y los parámetros que recibe.*/
 const talk = function(l1, l2, l3){
